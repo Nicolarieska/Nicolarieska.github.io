@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styleform1.css"/>
+    </head>
+    <body>
+        <table>
+            <form action="insertForm.php" method="GET">
+                <tr>
+                    <h2>Form Pendaftaran Anggota</h2>
+                    <form action="simpan-pendaftaran.php" method="post">
+                    <table>
+                          <tr>
+                              <td><label>Username:</label></td>
+                              <tr>
+                                <td><input type="text" name="username" placeholder="Masukan Username" /></td>
+                              </tr>
+                             
+                      </tr>
+                      <tr>
+                          <td><label>Nama:</label></td>
+                          <tr>
+                            <td><input type="text" name="nama" placeholder="Masukan Nama" /></td>
+                          </tr>
+                          
+                      </tr>
+                      <tr>
+                          <td><label>Alamat:</label></td>
+                          <tr>
+                            <td><textarea name="alamat" rows="5" placeholder="Masukan Alamat" ></textarea></td>
+                          </tr>
+                          
+                      </tr>
+                      <tr>
+                              <td><label>Email:</label></td>
+                              <tr>
+                                <td><input type="email" name="email" placeholder="Masukan Email" /></td>
+                              </tr>
+                             
+                      </tr>
+                      <tr>
+                          <td><label>No HP:</label></td>
+                          <tr><td><input type="text" name="no_hp" placeholder="Masukan No HP" /></td></tr>
+                          
+                      </tr>
+                      <tr>
+                          <td><label>Password:</label></td>
+                          <tr>
+                            <td><input type="password" name="password" placeholder="Masukan Password" /></td>
+                          </tr>
+                         
+                       </tr>
+                    </table>
+                      <button type="submit" name="submit">Submit</button>
+                    </form>
+        </table>
+    </body>
+</html>
